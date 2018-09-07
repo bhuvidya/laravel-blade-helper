@@ -8,7 +8,7 @@
 
 A Laravel 5 package to ease the creation of Blade directives.
 
-**Please note that this package was tested on Laravel 5.6 - I cannot guarantee it will work on earlier versions. Sorry.**
+**Please note that this package was tested on Laravel 5.6. It should work on >=5.5, but I cannot guarantee it will work on earlier versions. Sorry.**
 
 **BIG KUDOS** to Liam (https://github.com/ImLiam) who proposed this as a pull request on the Laravel Framework (https://github.com/laravel/framework/pull/24923). I really liked the concept so I put his code into a 
 package for others to use if they wanna. This README draws on his explanations in the pull request.
