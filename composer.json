@@ -1,0 +1,39 @@
+{
+    "name": "bhuvidya/laravel-blade-helper",
+    "description": "A Laravel 5 package to provide an abstraction when creating Blade directives.",
+    "authors": [
+        {
+            "name": "bhu Boue vidya",
+            "email": "bhuvidya@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "blade"
+    ],
+    "homepage": "https://github.com/bhuvidya/laravel-blade-helper",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "^5.5.0",
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BhuVidya\\BladeHelper\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/bhuvidya/laravel-blade-helper",
+        "issues": "https://github.com/bhuvidya/laravel-blade-helper/issues"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BhuVidya\\BladeHelper\\BladeHelperServiceProvider"
+            ]
+        }
+    }
+}
